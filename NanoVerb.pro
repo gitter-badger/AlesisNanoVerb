@@ -1,4 +1,4 @@
-update=Sex 02 Jan 2015 19:12:22 BRST
+update=Sex 02 Jan 2015 20:06:39 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -64,3 +64,4 @@ LibName30=valves
 LibName31=s87c51
 LibName32=tl084cn
 LibName33=v53c104fp60
+LibName34=alesis-2-27-0044
