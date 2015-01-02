@@ -1,4 +1,4 @@
-update=Sex 02 Jan 2015 17:25:12 BRST
+update=Sex 02 Jan 2015 17:48:11 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -62,3 +62,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=s87c51
+LibName32=tl084cn
