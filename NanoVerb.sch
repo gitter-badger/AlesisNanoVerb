@@ -73,7 +73,11 @@ F 3 "" H 20050 8900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20050 8100 20050 8900
+	20050 8100 20050 8550
+Wire Wire Line
+	20050 8550 20050 8800
+Wire Wire Line
+	20050 8800 20050 8900
 $Comp
 L S87C51 U1
 U 1 1 54A6F801
@@ -176,13 +180,13 @@ $EndComp
 $Comp
 L V53C104FP60 U7
 U 1 1 54A70A30
-P 6600 3250
-F 0 "U7" H 6850 3850 60  0000 C CNN
-F 1 "V53C104FP60" H 6600 2600 60  0000 C CNN
-F 2 "" H 6600 3400 60  0000 C CNN
-F 3 "" H 6600 3400 60  0000 C CNN
-	1    6600 3250
-	1    0    0    -1  
+P 6650 2250
+F 0 "U7" H 6900 2850 60  0000 C CNN
+F 1 "V53C104FP60" H 6650 1600 60  0000 C CNN
+F 2 "" H 6650 2400 60  0000 C CNN
+F 3 "" H 6650 2400 60  0000 C CNN
+	1    6650 2250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L ALESIS-2-27-0044 U2
@@ -236,7 +240,29 @@ Wire Wire Line
 Wire Wire Line
 	6450 8350 6450 8250
 Wire Bus Line
-	5750 9500 8900 9500
+	5750 9500 5850 9500
+Wire Bus Line
+	5850 9500 5950 9500
+Wire Bus Line
+	5950 9500 6050 9500
+Wire Bus Line
+	6050 9500 6150 9500
+Wire Bus Line
+	6150 9500 6250 9500
+Wire Bus Line
+	6250 9500 6350 9500
+Wire Bus Line
+	6350 9500 6450 9500
+Wire Bus Line
+	6450 9500 7000 9500
+Wire Bus Line
+	7000 9500 7100 9500
+Wire Bus Line
+	7100 9500 7200 9500
+Wire Bus Line
+	7200 9500 7300 9500
+Wire Bus Line
+	7300 9500 8900 9500
 Entry Wire Line
 	5650 9400 5750 9500
 Entry Wire Line
@@ -268,7 +294,13 @@ Entry Wire Line
 Entry Wire Line
 	8800 11400 8900 11300
 Wire Bus Line
-	8900 9500 8900 11600
+	8900 9500 8900 11300
+Wire Bus Line
+	8900 11300 8900 11400
+Wire Bus Line
+	8900 11400 8900 11500
+Wire Bus Line
+	8900 11500 8900 11600
 Entry Wire Line
 	8800 11700 8900 11600
 Text Label 6900 9900 1    60   ~ 0
@@ -375,7 +407,11 @@ Wire Wire Line
 Text GLabel 21200 7800 2    60   Input ~ 0
 VCC
 Wire Wire Line
-	20450 7800 21200 7800
+	20450 7800 20700 7800
+Wire Wire Line
+	20700 7800 20950 7800
+Wire Wire Line
+	20950 7800 21200 7800
 $Comp
 L C C34
 U 1 1 54A816F0
@@ -405,7 +441,9 @@ Wire Wire Line
 	20950 8000 20950 7800
 Connection ~ 20950 7800
 Wire Wire Line
-	20050 8550 20950 8550
+	20050 8550 20700 8550
+Wire Wire Line
+	20700 8550 20950 8550
 Wire Wire Line
 	20700 8550 20700 8400
 Connection ~ 20050 8550
@@ -417,7 +455,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 13150 6700 13150
 Wire Wire Line
-	6700 13050 6700 13200
+	6700 13050 6700 13150
+Wire Wire Line
+	6700 13150 6700 13200
 Text GLabel 6700 13200 3    60   Input ~ 0
 GND
 Connection ~ 6700 13150
@@ -447,4 +487,256 @@ NoConn ~ 7250 8250
 NoConn ~ 8050 6950
 Text Notes 8100 7000 0    60   ~ 0
 (?)
+Wire Bus Line
+	5950 700  6200 700 
+Wire Bus Line
+	6200 700  6300 700 
+Wire Bus Line
+	5950 700  5950 3750
+Wire Bus Line
+	5400 3750 6100 3750
+Wire Bus Line
+	6100 3750 6200 3750
+Entry Wire Line
+	6200 3750 6300 3650
+Entry Wire Line
+	6100 3750 6200 3650
+Entry Wire Line
+	6300 700  6400 800 
+Entry Wire Line
+	6200 700  6300 800 
+Wire Wire Line
+	6300 800  6300 1750
+Wire Wire Line
+	6400 1750 6400 800 
+Wire Wire Line
+	6200 2750 6200 3650
+Wire Wire Line
+	6300 3650 6300 2750
+Entry Wire Line
+	5550 4650 5650 4750
+Entry Wire Line
+	5650 4650 5750 4750
+Entry Wire Line
+	5850 4650 5950 4750
+Entry Wire Line
+	5950 4650 6050 4750
+Wire Wire Line
+	5950 4750 5950 5650
+Wire Wire Line
+	6050 5650 6050 4750
+Wire Wire Line
+	5750 4750 5750 5650
+Wire Wire Line
+	5650 5650 5650 4750
+Text Label 6200 3650 1    60   Italic 0
+RAM_D0
+Text Label 6300 3650 1    60   Italic 0
+RAM_D1
+Text Label 6400 850  3    60   Italic 0
+RAM_D2
+Text Label 6300 850  3    60   Italic 0
+RAM_D3
+Text Label 5650 4800 3    60   Italic 0
+RAM_D0
+Text Label 5750 4800 3    60   Italic 0
+RAM_D1
+Text Label 5950 4800 3    60   Italic 0
+RAM_D2
+Text Label 6050 4800 3    60   Italic 0
+RAM_D3
+Text GLabel 6200 1650 1    60   Input ~ 0
+GND
+Wire Wire Line
+	6200 1650 6200 1750
+Text GLabel 7100 2850 3    60   Input ~ 0
+VCC
+Wire Wire Line
+	7100 2850 7100 2750
+Text GLabel 6600 1650 1    60   Input ~ 0
+GND
+Wire Wire Line
+	6600 1650 6600 1750
+Wire Bus Line
+	6800 700  6900 700 
+Wire Bus Line
+	6900 700  7000 700 
+Wire Bus Line
+	7000 700  7100 700 
+Wire Bus Line
+	7100 700  7200 700 
+Wire Bus Line
+	7200 700  7400 700 
+Wire Bus Line
+	7400 700  7400 3750
+Wire Bus Line
+	6800 3750 6900 3750
+Wire Bus Line
+	6900 3750 7000 3750
+Wire Bus Line
+	7000 3750 7100 3750
+Wire Bus Line
+	7100 3750 7850 3750
+Entry Wire Line
+	6700 3650 6800 3750
+Entry Wire Line
+	6800 3650 6900 3750
+Entry Wire Line
+	6900 3650 7000 3750
+Entry Wire Line
+	7000 3650 7100 3750
+Entry Wire Line
+	6700 800  6800 700 
+Entry Wire Line
+	6800 800  6900 700 
+Entry Wire Line
+	6900 800  7000 700 
+Entry Wire Line
+	7000 800  7100 700 
+Wire Wire Line
+	6700 800  6700 1750
+Wire Wire Line
+	6800 1750 6800 800 
+Wire Wire Line
+	6900 800  6900 1750
+Wire Wire Line
+	7000 1750 7000 800 
+Wire Wire Line
+	6700 3650 6700 2750
+Wire Wire Line
+	6800 2750 6800 3650
+Wire Wire Line
+	6900 3650 6900 2750
+Wire Wire Line
+	7000 2750 7000 3650
+Entry Wire Line
+	7100 800  7200 700 
+Wire Wire Line
+	7100 800  7100 1750
+Text GLabel 6500 1400 1    60   Input Italic 0
+~RAM_CAS
+Text GLabel 6500 3300 3    60   Input Italic 0
+~RAM_RAS
+Text GLabel 6400 2850 3    60   Input Italic 0
+~RAM_WE
+Wire Wire Line
+	6400 2750 6400 2850
+Wire Wire Line
+	6500 3300 6500 2750
+Wire Wire Line
+	6500 1750 6500 1400
+Wire Bus Line
+	5400 3750 5400 4650
+Wire Bus Line
+	5400 4650 5550 4650
+Wire Bus Line
+	5550 4650 5650 4650
+Wire Bus Line
+	5650 4650 5850 4650
+Wire Bus Line
+	5850 4650 5950 4650
+Text Label 6700 850  3    60   Italic 0
+RAM_A8
+Text Label 6800 850  3    60   Italic 0
+RAM_A7
+Text Label 6900 850  3    60   Italic 0
+RAM_A6
+Text Label 7000 850  3    60   Italic 0
+RAM_A5
+Text Label 7100 850  3    60   Italic 0
+RAM_A4
+Text Label 6700 3300 3    60   Italic 0
+RAM_A0
+Text Label 6800 3300 3    60   Italic 0
+RAM_A1
+Text Label 6900 3300 3    60   Italic 0
+RAM_A2
+Text Label 7000 3300 3    60   Italic 0
+RAM_A3
+Text GLabel 6150 5500 1    60   Input Italic 0
+~RAM_WE
+Text GLabel 6250 5000 1    60   Input Italic 0
+~RAM_RAS
+Text GLabel 6350 5500 1    60   Input Italic 0
+~RAM_CAS
+Wire Wire Line
+	6150 5500 6150 5650
+Wire Wire Line
+	6250 5650 6250 5000
+Wire Wire Line
+	6350 5500 6350 5650
+Wire Bus Line
+	7850 3750 7850 4250
+Wire Bus Line
+	7850 4250 7350 4250
+Wire Bus Line
+	7350 4250 7250 4250
+Wire Bus Line
+	7250 4250 7150 4250
+Wire Bus Line
+	7150 4250 7050 4250
+Wire Bus Line
+	7050 4250 6950 4250
+Wire Bus Line
+	6950 4250 6850 4250
+Wire Bus Line
+	6850 4250 6750 4250
+Wire Bus Line
+	6750 4250 6650 4250
+Wire Bus Line
+	6650 4250 6550 4250
+Entry Wire Line
+	6450 4350 6550 4250
+Entry Wire Line
+	6550 4350 6650 4250
+Entry Wire Line
+	6650 4350 6750 4250
+Entry Wire Line
+	6750 4350 6850 4250
+Entry Wire Line
+	6850 4350 6950 4250
+Entry Wire Line
+	6950 4350 7050 4250
+Entry Wire Line
+	7050 4350 7150 4250
+Entry Wire Line
+	7150 4350 7250 4250
+Entry Wire Line
+	7250 4350 7350 4250
+Wire Wire Line
+	6450 4350 6450 5650
+Wire Wire Line
+	6550 5650 6550 4350
+Wire Wire Line
+	6650 4350 6650 5650
+Wire Wire Line
+	6750 5650 6750 4350
+Wire Wire Line
+	6850 4350 6850 5650
+Wire Wire Line
+	6950 5650 6950 4350
+Wire Wire Line
+	7050 4350 7050 5650
+Wire Wire Line
+	7150 5650 7150 4350
+Wire Wire Line
+	7250 4350 7250 5650
+Text Label 6450 4450 3    60   Italic 0
+RAM_A0
+Text Label 6550 4450 3    60   Italic 0
+RAM_A8
+Text Label 6650 4450 3    60   Italic 0
+RAM_A1
+Text Label 6750 4450 3    60   Italic 0
+RAM_A7
+Text Label 6850 4450 3    60   Italic 0
+RAM_A2
+Text Label 6950 4450 3    60   Italic 0
+RAM_A6
+Text Label 7050 4450 3    60   Italic 0
+RAM_A3
+Text Label 7150 4450 3    60   Italic 0
+RAM_A5
+Text Label 7250 4450 3    60   Italic 0
+RAM_A4
 $EndSCHEMATC
