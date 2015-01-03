@@ -64,25 +64,25 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 54A6E8E7
-P 20050 8300
-F 0 "#PWR?" H 20050 8300 30  0001 C CNN
-F 1 "GND" H 20050 8230 30  0001 C CNN
-F 2 "" H 20050 8300 60  0000 C CNN
-F 3 "" H 20050 8300 60  0000 C CNN
-	1    20050 8300
+P 20050 8900
+F 0 "#PWR?" H 20050 8900 30  0001 C CNN
+F 1 "GND" H 20050 8830 30  0001 C CNN
+F 2 "" H 20050 8900 60  0000 C CNN
+F 3 "" H 20050 8900 60  0000 C CNN
+	1    20050 8900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20050 8300 20050 8100
+	20050 8100 20050 8900
 $Comp
 L S87C51 U1
 U 1 1 54A6F801
-P 6450 11800
-F 0 "U1" H 7150 12750 60  0000 C CNN
-F 1 "S87C51" H 6450 11900 60  0000 C CNN
-F 2 "" H 6450 11800 60  0000 C CNN
-F 3 "" H 6450 11800 60  0000 C CNN
-	1    6450 11800
+P 6700 11900
+F 0 "U1" H 7500 12900 60  0000 C CNN
+F 1 "S87C51" H 6700 12000 60  0000 C CNN
+F 2 "" H 6700 11900 60  0000 C CNN
+F 3 "" H 6700 11900 60  0000 C CNN
+	1    6700 11900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -187,34 +187,34 @@ $EndComp
 $Comp
 L ALESIS-2-27-0044 U2
 U 1 1 54A72216
-P 6450 7850
-F 0 "U2" H 7550 9400 60  0000 C CNN
-F 1 "ALESIS-2-27-0044" H 7900 7550 60  0000 C CNN
-F 2 "" H 5850 7650 60  0000 C CNN
-F 3 "" H 5850 7650 60  0000 C CNN
-	1    6450 7850
+P 6450 7600
+F 0 "U2" H 7750 9450 60  0000 C CNN
+F 1 "ALESIS-2-27-0044" H 7900 7050 60  0000 C CNN
+F 2 "" H 5850 7400 60  0000 C CNN
+F 3 "" H 5850 7400 60  0000 C CNN
+	1    6450 7600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 11200 8800 11200
+	7850 11400 8800 11400
 Wire Wire Line
-	7450 11300 8800 11300
+	7850 11500 8800 11500
 Wire Wire Line
-	7450 11400 8800 11400
+	7850 11600 8800 11600
 Wire Wire Line
-	7450 11500 8800 11500
+	7850 11700 8800 11700
 Wire Wire Line
-	6950 9600 6950 10700
+	7200 9600 7200 10750
 Wire Wire Line
-	6750 9600 6750 10700
+	7000 9600 7000 10750
 Wire Wire Line
-	6850 9600 6850 10700
+	7100 9600 7100 10750
 Wire Wire Line
-	6650 9600 6650 10700
-Text GLabel 7550 11800 2    60   Input ~ 0
+	6900 9600 6900 10750
+Text GLabel 7950 12000 2    60   Input ~ 0
 ADDRESS_LATCH
 Wire Wire Line
-	7550 11800 7450 11800
+	7950 12000 7850 12000
 Wire Wire Line
 	5650 8250 5650 9400
 Wire Wire Line
@@ -236,29 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 8350 6450 8250
 Wire Bus Line
-	8900 9500 7050 9500
-Wire Bus Line
-	7050 9500 6950 9500
-Wire Bus Line
-	6950 9500 6850 9500
-Wire Bus Line
-	6850 9500 6750 9500
-Wire Bus Line
-	6750 9500 6450 9500
-Wire Bus Line
-	6450 9500 6350 9500
-Wire Bus Line
-	6350 9500 6250 9500
-Wire Bus Line
-	6250 9500 6150 9500
-Wire Bus Line
-	6150 9500 6050 9500
-Wire Bus Line
-	6050 9500 5950 9500
-Wire Bus Line
-	5950 9500 5850 9500
-Wire Bus Line
-	5850 9500 5750 9500
+	5750 9500 8900 9500
 Entry Wire Line
 	5650 9400 5750 9500
 Entry Wire Line
@@ -276,95 +254,197 @@ Entry Wire Line
 Entry Wire Line
 	6350 9400 6450 9500
 Entry Wire Line
-	6650 9600 6750 9500
+	6900 9600 7000 9500
 Entry Wire Line
-	6750 9600 6850 9500
+	7000 9600 7100 9500
 Entry Wire Line
-	6850 9600 6950 9500
+	7100 9600 7200 9500
 Entry Wire Line
-	6950 9600 7050 9500
+	7200 9600 7300 9500
 Entry Wire Line
-	8800 11400 8900 11300
-Entry Wire Line
-	8800 11300 8900 11200
-Entry Wire Line
-	8800 11200 8900 11100
-Wire Bus Line
-	8900 9500 8900 11100
-Wire Bus Line
-	8900 11100 8900 11200
-Wire Bus Line
-	8900 11200 8900 11300
-Wire Bus Line
-	8900 11300 8900 11400
+	8800 11600 8900 11500
 Entry Wire Line
 	8800 11500 8900 11400
-Text Label 6650 10550 1    60   ~ 0
-P0.0
-Text Label 6750 10550 1    60   ~ 0
-P0.1
-Text Label 6850 10550 1    60   ~ 0
-P0.2
-Text Label 6950 10550 1    60   ~ 0
-P0.3
-Text Label 7600 11200 0    60   ~ 0
-P0.4
-Text Label 7600 11300 0    60   ~ 0
-P0.5
-Text Label 7600 11400 0    60   ~ 0
-P0.6
-Text Label 7600 11500 0    60   ~ 0
-P0.7
+Entry Wire Line
+	8800 11400 8900 11300
+Wire Bus Line
+	8900 9500 8900 11600
+Entry Wire Line
+	8800 11700 8900 11600
+Text Label 6900 9900 1    60   ~ 0
+AD0
+Text Label 7000 9900 1    60   ~ 0
+AD1
+Text Label 7100 9900 1    60   ~ 0
+AD2
+Text Label 7200 9900 1    60   ~ 0
+AD3
+Text Label 8550 11400 0    60   ~ 0
+AD4
+Text Label 8550 11500 0    60   ~ 0
+AD5
+Text Label 8550 11600 0    60   ~ 0
+AD6
+Text Label 8550 11700 0    60   ~ 0
+AD7
 Text Label 5650 9200 1    60   ~ 0
-P0.0
+AD0
 Text Label 5750 9200 1    60   ~ 0
-P0.1
+AD1
 Text Label 5850 9200 1    60   ~ 0
-P0.2
+AD2
 Text Label 5950 9200 1    60   ~ 0
-P0.3
+AD3
 Text Label 6150 9200 1    60   ~ 0
-P0.5
+AD5
 Text Label 6050 9200 1    60   ~ 0
-P0.4
+AD4
 Text Label 6250 9200 1    60   ~ 0
-P0.6
+AD6
 Text Label 6350 9200 1    60   ~ 0
-P0.7
-Text GLabel 5300 11500 0    60   Input ~ 0
+AD7
+Text GLabel 5400 11700 0    60   Input ~ 0
 MCU_RESET
 Wire Wire Line
-	5300 11500 5450 11500
-Text GLabel 7950 7300 2    60   Input ~ 0
+	5400 11700 5550 11700
+Text GLabel 8200 7050 2    60   Input ~ 0
 MCU_RESET
 Wire Wire Line
-	7800 7300 7950 7300
-Text GLabel 5900 12850 3    60   Input ~ 0
+	8050 7050 8200 7050
+Text GLabel 6150 13200 3    60   Input ~ 0
 ~MCU_WR
-Text GLabel 6050 12850 3    60   Input ~ 0
+Text GLabel 6300 13200 3    60   Input ~ 0
 ~MCU_RD
 Wire Wire Line
-	6050 12850 6050 12700
+	6300 13200 6300 13050
 Wire Wire Line
-	5950 12700 5950 12800
+	6200 13050 6200 13150
 Wire Wire Line
-	5950 12800 5900 12800
+	6200 13150 6150 13150
 Wire Wire Line
-	5900 12800 5900 12850
-Text GLabel 8100 7500 2    60   Input ~ 0
+	6150 13150 6150 13200
+Text GLabel 8350 7250 2    60   Input ~ 0
 ~MCU_RD
-Text GLabel 8550 7400 2    60   Input ~ 0
+Text GLabel 8800 7150 2    60   Input ~ 0
 ~MCU_WR
 Wire Wire Line
-	7800 7500 8100 7500
+	8050 7250 8350 7250
 Wire Wire Line
-	7800 7400 8550 7400
-Text GLabel 6250 12850 3    60   Input ~ 0
+	8050 7150 8800 7150
+Text GLabel 6500 13200 3    60   Input ~ 0
 MCU_XTAL1
 Wire Wire Line
-	6250 12700 6250 12850
-Text GLabel 8550 7600 2    60   Input ~ 0
+	6500 13050 6500 13200
+Text GLabel 8800 7350 2    60   Input ~ 0
 MCU_XTAL1
 Wire Wire Line
-	7800 7600 8550 7600
+	8050 7350 8800 7350
+Text GLabel 5550 5500 1    60   Input ~ 0
+GND
+Text GLabel 5850 5500 1    60   Input ~ 0
+GND
+Wire Wire Line
+	5550 5500 5550 5650
+Wire Wire Line
+	5850 5500 5850 5650
+Text GLabel 20100 8800 2    60   Input ~ 0
+GND
+Wire Wire Line
+	20100 8800 20050 8800
+Connection ~ 20050 8800
+Text GLabel 4700 7550 0    60   Input ~ 0
+GND
+Text GLabel 7350 8350 3    60   Input ~ 0
+GND
+Wire Wire Line
+	7350 8350 7350 8250
+Wire Wire Line
+	4850 7550 4700 7550
+Text GLabel 4750 6350 0    60   Input ~ 0
+VCC
+Wire Wire Line
+	4750 6350 4850 6350
+Text GLabel 5550 8350 3    60   Input ~ 0
+VCC
+Wire Wire Line
+	5550 8250 5550 8350
+Text GLabel 6800 10650 1    60   Input ~ 0
+VCC
+Wire Wire Line
+	6800 10650 6800 10750
+Text GLabel 21200 7800 2    60   Input ~ 0
+VCC
+Wire Wire Line
+	20450 7800 21200 7800
+$Comp
+L C C34
+U 1 1 54A816F0
+P 20700 8200
+F 0 "C34" H 20700 8300 40  0000 L CNN
+F 1 "C" H 20706 8115 40  0000 L CNN
+F 2 "" H 20738 8050 30  0000 C CNN
+F 3 "" H 20700 8200 60  0000 C CNN
+	1    20700 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C35
+U 1 1 54A8173A
+P 20950 8200
+F 0 "C35" H 20950 8300 40  0000 L CNN
+F 1 "C" H 20956 8115 40  0000 L CNN
+F 2 "" H 20988 8050 30  0000 C CNN
+F 3 "" H 20950 8200 60  0000 C CNN
+	1    20950 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20700 8000 20700 7800
+Connection ~ 20700 7800
+Wire Wire Line
+	20950 8000 20950 7800
+Connection ~ 20950 7800
+Wire Wire Line
+	20050 8550 20950 8550
+Wire Wire Line
+	20700 8550 20700 8400
+Connection ~ 20050 8550
+Wire Wire Line
+	20950 8550 20950 8400
+Connection ~ 20700 8550
+Wire Wire Line
+	6600 13050 6600 13150
+Wire Wire Line
+	6600 13150 6700 13150
+Wire Wire Line
+	6700 13050 6700 13200
+Text GLabel 6700 13200 3    60   Input ~ 0
+GND
+Connection ~ 6700 13150
+Text GLabel 7350 5500 1    60   Input ~ 0
+VCC
+Wire Wire Line
+	7350 5500 7350 5650
+Text GLabel 8200 7550 2    60   Input ~ 0
+VCC
+Wire Wire Line
+	8200 7550 8050 7550
+Text Notes 8050 7500 0    60   ~ 0
+(?)
+Text Notes 8100 6350 0    60   ~ 0
+(GND?)
+NoConn ~ 8050 6350
+Text Notes 7900 7850 0    60   Italic 0
+There's a solder blob shorting pins 20 and 21.\nIt seems to have been caused by overheat in the 7805 chip nearby.
+NoConn ~ 6550 8250
+NoConn ~ 6650 8250
+NoConn ~ 6750 8250
+NoConn ~ 6850 8250
+NoConn ~ 6950 8250
+NoConn ~ 7050 8250
+NoConn ~ 7150 8250
+NoConn ~ 7250 8250
+NoConn ~ 8050 6950
+Text Notes 8100 7000 0    60   ~ 0
+(?)
 $EndSCHEMATC
