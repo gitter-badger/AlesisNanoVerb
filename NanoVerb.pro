@@ -1,4 +1,4 @@
-update=Sex 02 Jan 2015 20:06:39 BRST
+update=Sáb 03 Jan 2015 19:36:44 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -65,3 +65,16 @@ LibName31=s87c51
 LibName32=tl084cn
 LibName33=v53c104fp60
 LibName34=alesis-2-27-0044
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
