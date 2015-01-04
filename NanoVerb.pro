@@ -1,4 +1,4 @@
-update=Sáb 03 Jan 2015 19:36:44 BRST
+update=Dom 04 Jan 2015 17:10:11 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,6 +27,19 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -65,16 +78,4 @@ LibName31=s87c51
 LibName32=tl084cn
 LibName33=v53c104fp60
 LibName34=alesis-2-27-0044
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=doc/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibName35=saa7366
